@@ -23,7 +23,7 @@ public class Model {
 		
 		Set<Esame> parziale=new HashSet<>();
 		
-		cerca2(parziale,0,numeroCrediti);
+		cerca1(parziale,0,numeroCrediti);
 		
 		
 		return bestSoluzione;
